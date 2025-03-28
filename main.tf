@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "var.region"
+}
 module "ipam" {
   source = "./module"
   description       = var.description
