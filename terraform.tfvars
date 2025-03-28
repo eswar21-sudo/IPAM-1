@@ -1,4 +1,5 @@
 description = "Global IPAM for Multi-Region CIDR Management"
+region = "us-east-2"
 
 operating_regions = [
   "us-east-1",
