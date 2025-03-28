@@ -3,7 +3,7 @@ resource "aws_vpc_ipam" "this" {
   dynamic "operating_regions" {
     for_each = var.operating_regions 
 content {
-      region_name = region
+      region_name = us-east-1
     }
   }
 }
