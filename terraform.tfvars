@@ -10,7 +10,7 @@ operating_regions = [
 cidr_pools = [
   {
     region                 = "us-east-2"
-    description            = "CIDR Pool for us-east-1"
+    description            = "CIDR Pool for us-east-2"
     cidr                   = "10.0.0.0/16"
     auto_import            = true
     default_netmask_length = 24
