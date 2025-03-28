@@ -1,8 +1,8 @@
 resource "aws_vpc_ipam" "this" {
   description = var.description
-
-  operating_regions {
-    for region in var.operating_regions : {
+  dynamic "operating_regions" {
+    for_each = var.operating_regions 
+content {
       region_name = region
     }
   }
