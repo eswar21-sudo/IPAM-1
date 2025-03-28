@@ -1,5 +1,5 @@
 module "ipam" {
-  source = "./module/ipam"
+  source = "./module"
 
   description       = var.description
   operating_regions = var.operating_regions
