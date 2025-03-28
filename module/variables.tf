@@ -3,6 +3,11 @@ variable "description" {
   type        = string
 }
 
+variable "region" {
+  description = "Region of IPAM"
+  type = string
+}
+
 variable "operating_regions" {
   description = "List of AWS regions for IPAM"
   type        = list(string)
